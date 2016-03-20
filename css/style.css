@@ -1,0 +1,76 @@
+html, body {
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+}
+
+body {
+  background-image: url("../images/grass.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+h1 {
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: #ffffff;
+  text-transform: none;
+	font-size: 3em;
+}
+
+#header {
+	position: fixed;
+	z-index: 90;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #39454b;
+	height: 4.2em;
+	line-height: 3em;
+	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+	}
+
+#olwibalogo {
+  position: absolute;
+  top: -20px;
+  left: 0.5em;
+  width: 11em;
+  height: auto;
+  z-index: 100;
+}
+
+#welcome {
+	position:absolute;
+  width: 20em;
+	left: -25px;
+	top:-30px;
+  height: auto;
+}
+#content {
+  position: fixed;
+	text-align: center;
+	top: 20%;
+  left: 25%;
+	right: 25%;
+	height: auto;
+  width: 50%;
+  padding: 10px 10px 10px;
+  z-index: 100;
+}
+
+
+#shade {
+    background: rgba(0, 0, 0, 0.7);
+	padding: 40px 10px 10px 10px;
+	border-radius:10px;
+	line-height:2.5em;
+}
