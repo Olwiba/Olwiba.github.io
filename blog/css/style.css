@@ -35,6 +35,15 @@ h2 {
 	font-size: 25px;
 }
 
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.list-image {
+  width: 90%;
+  height: auto;
+}
+
 #header {
 	position: fixed;
 	z-index: 90;
