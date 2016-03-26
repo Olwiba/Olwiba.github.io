@@ -21,7 +21,7 @@ h1 {
 	margin-bottom: 10px;
 	text-align: center;
 	font-family: 'Pacifico', cursive;
-	color: #ffffff;
+	color: #6DC066;
 	text-transform: none;
 	font-size: 45px;
 }
@@ -39,9 +39,18 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+	color: #6DC066;
+}
+
 .list-image {
   width: 90%;
   height: auto;
+}
+
+.small {
+	width:15%;
+	height:15%;
 }
 
 #header {
