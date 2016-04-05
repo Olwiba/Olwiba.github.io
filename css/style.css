@@ -149,7 +149,7 @@ h1,h2,h3,h4,h5,h6,p {
   margin:0 auto;
 }
 
-#categories div h1, #categories div p, #categories div a{
+#categories div h1, #categories div p{
   width:90%;
   padding:0 5%;
   color: #fff;
@@ -160,7 +160,7 @@ h1,h2,h3,h4,h5,h6,p {
   -ms-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
   transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
 }
-#categories li h1, #categories li a{
+#categories li h1, #categories li h1 a{
   bottom:110%;
   font-style:italic;
   font-weight:normal;
@@ -168,7 +168,7 @@ h1,h2,h3,h4,h5,h6,p {
   padding-top:100%;
   padding-bottom:100%;
 }
-#categories li h1:after, #categories li a:after{
+#categories li h1:after, #categories li h1 a:after{
   content:'';
   display:block;
   position:absolute;
@@ -187,7 +187,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* HOVER EFFECT  */
 
-#categories li div:hover h1, #categories li div:hover a {
+#categories li div:hover h1, #categories li div:hover h1 a {
   bottom:50%;
   padding-bottom:10%;
 }
