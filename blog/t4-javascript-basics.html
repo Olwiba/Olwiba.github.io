@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+Version: 1.0
+Dev Academy blog yo! check it out \0/
+-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Javascript Basics</title>
+		<link rel="icon" href="images/favicon-cog.ico" type="icon">
+			<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+			<!-- Style Sheets -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/buttons.css">
+	</head>
+<!--
+Checking out my source code? Let me know if there is anything that could be improved!
+-->
+  <body>
+		<header id="header">
+				<!-- Logo -->
+			<img src="images/Olwiba-logo-grey.png" href="http://olwiba.github.io" alt="Olwiba" id="olwibalogo" />
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+              <li><a href="http://olwiba.github.io">Home</a></li>
+              <li><a href="http://olwiba.github.io/blog/technical.html" class="selected">Technical</a></li>
+              <li><a href="http://olwiba.github.io/blog/cultural.html">Cultural</a></li>
+						</ul>
+					</nav>
+		</header>
+<html>
+  <body>
+		<div id="content">
+			<div id="shade">
+				<h1>Javascript Basics</h1>
+				<h2>How does JavaScript compare to HTML and CSS?</h2>
+        <p>
+          Javascript has many differences from HTML and CSS, each one of these technologies has a unique purpose. We know that <a>HTML</a> is  used to create the actual content of a web page and is also used to define the structure that we want it to have and we know that <a>CSS</a> is used for the design of the page, how everything is going to look and how it is positioned on the page.  
+
+          So what is Javascript and what is it used for?
+
+          JavaScript is a high-level, dynamic, untyped, and interpreted programming language. In todays world it's and essential part of website development as it serves functionality to the users of a site.
+
+          I like to think of Javascript as giving the page some "brains" or logic. Everything that we want to change or be animated after the page has been loaded is done using Javascript. There are many different use cases that Javascript can be used for such as creating online games, making animated buttons or even validating online forms it's really up to the developer to use it as they see fit. 
+           
+          Javascript is much closer to traditional programming languages then HTML or CSS as it uses functions, variables , arrays and object literals and also supports regular expressions similar to Perl.
+        </p>
+        <h2>Control Flow and Loops</h2>
+        <p>
+          The great thing about Javascript is that it can take user input and make a decision based on what they have done,It uses keywords such as <a>if</a> and <a>for</a> to create conditions that it will respond to accordingly. A great example from everyday life is taking a shower, <a>if </a> you smell or have worked out, then take a shower. Statements like these will create the "control flow" of your application. <br>
+          The syntax to achieve this in Javascript would be: <br>
+
+          <a>var dirty = true;<br>
+
+          shouldIShower = function() {<br>
+           if (dirty) {<br>
+            takeShower();<br>
+            dirty = false;<br>
+           } else {<br>
+            return "You are clean";<br>
+           }  };</a><br>
+
+          Loops are used in the control flow to create repetition.  A keyword such as <a>while</a> can be used to achieve this, say you where wanting to clean yourself in the shower.
+          You could do this by saying <a>while</a> I am dirty, I scrub myself. This would then be repeated until i was clean then it would stop. <br>
+
+          The syntax to achieve this in Javascript would be: <br>
+
+          <a>while (howDirty > 0) { <br>
+            scrub();<br>
+            howDirty--; };</a><br>
+        </p>
+        <h2>Data Access</h2>
+        <p>
+        When working with an object you will define the variables with assigned values, for example  a motorbike object could have <a>wheels = 2, motor = 1, make = "Honda".</a> These variables can be labeled by the developer however they wish as long as when they come to change the values later on they use the correct label such as <a>motorbike.make = "Suzuki"</a> this will change the "make" variable of the "motorbike" object to a string of their choice.
+ 
+       However when working with Arrays things work a little differently. Arrays are an ordered list of variables that are stored with index numbers.  Data stored in an array instead of being accessed by the variables name it is accessed by its index number.  From the example above to access the "make" i would need to specify the index value, in this case it would be [2].
+       Arrays start at a value of 0 and go up from there so the wheels variable would be [0] and it would continue on from there.
+        </p>
+        <h2>Functions</h2>
+        <p>
+        A function is a group of reusable code which can be called anywhere in your program. It stops the programmer from needing to create the same code multiple times. Functions can be passed parameters that the function will then use to complete the set of code that it contains. This gives the function the ability to take various values and makes the code much more reusable. </p>
+			</div>
+		</div>
+
+
+</body>
+
+</html>
+
+  </body>
+</html>
