@@ -82,7 +82,9 @@ header {
   background-origin: content-box;
   background-color: rgba(0,0,0,0.35);
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
+  position: block;
+  top:50%; 
   width:60%;
   height: auto;
   padding-bottom: 20px;
