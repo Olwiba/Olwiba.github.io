@@ -44,12 +44,17 @@ h3 {
   font-size: 25px;
 }
 
-p {
+p{
   font-family: 'Raleway', sans-serif;
 }
 
 a {
 	color: #6DC066;
+}
+
+.center {
+	display: block;
+	margin: auto;
 }
 
 .list-image {

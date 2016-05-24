@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Version: 1.0
+Dev Academy blog yo! check it out \0/
+-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Personal Project - Reflection</title>
+		<link rel="icon" href="images/favicon-cog.ico" type="icon">
+			<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+			<!-- Style Sheets -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/buttons.css">
+	</head>
+<!--
+Checking out my source code? Let me know if there is anything that could be improved!
+-->
+  <body>
+		<header id="header">
+				<!-- Logo -->
+			<img src="images/Olwiba-logo-grey.png" href="http://olwiba.github.io" alt="Olwiba" id="olwibalogo" />
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+              <li><a href="http://olwiba.github.io">Home</a></li>
+              <li><a href="http://olwiba.github.io/blog/technical.html">Technical</a></li>
+              <li><a href="http://olwiba.github.io/blog/cultural.html">Cultural</a></li>
+						</ul>
+					</nav>
+		</header>
+<html>
+  <body>
+		<div id="content">
+			<div id="shade">
+				<h1>Personal Project Reflection</h1>
+				<h2>Goals</h2>
+				<ul>
+					<li><p>These are the goals that I set myself for the personal project challenge.</p></li>
+					<li><p>- Must Have an API implemented and working correctly</p></li>
+					<li><p>- Elements of the page must update when button(s) are pressed</p></li>
+					<li><p>- Needs to be easy to use and understand + simple, sleek design</p></li>
+					<li><h3>Stretch Goal</h3></li>
+					<li><p>- Add in a google map that displays where the user is located</p></li>
+				</ul>
+				<h2>Did my Application achieve my goals?</h2>
+				<p>
+					In order for my idea to work I needed to use an <a>API</a> to return the information that was gathered on the users. This is the type of information that could be gathered from your machine from doing a <a>whoIs</a> lookup from the console.  Originally I was using the <a href="http://geoip.nekudo.com/">geoIp</a> API from nekudo.com but after implementation I found one major flaw. This was the fact that users could only enter in IP addresses, to someone who is not confident with computers this could be too difficult and may deter many people from using my app. <br/>
+					In order for me to fix this problem I needed to find other <a>API</a> one that would let me pass in either a domain address <b>or</b> an IP address. So after scouring the internet I found the solution! <a href="http://freegeoip.net">This API</a> had the ability to be passed either IP or Domain addresses at the cost of only being allowed 10,000 calls an hour, this I felt would do the trick for what I'm doing. <br/>
+					After getting the API out of the way I then went on to creating an intro section for my users and various fields for data to be displayed on the page. These where all linked up with <a>$("#button").on("click", function() {...})</a> so that when the search button is pressed some elements would disappear and new elements would take their place. This checked off the dynamic section of my goals.<br/>
+					Lastly I needed to <a>Style</a> it in a way that would make it feel modern, simple and easy to use. This was done by using a simple 4 colour scheme that I used throughout the whole project.
+				</p>
+				<h2>Completing the Stretch Goal</h2>
+				<p>
+					For my stretch goal I wanted the location for the target to be displayed on a <a>google map</a> with a <a>pin marker</a> to show the more exact location. This was something that I had tried before but couldn't seem to get working (When we worked on our personal portfolio). After doing some research I figured out how to add a <a>map</a> to the page and even add an API key for the map so that it will work. I then needed to update the longitude and latitude co-ordinates so that the map was showing the correct location. Lastly I added in a <a>Pin marker</a> and set that to the longitude and latitude co-ordinates that the map was set to. <br/>
+					After all this the map was working how it was supposed to but I wanted to take it a step further as I want my application to look nice. I found out that you can customize the style of a google map so looking through <a href="https://snazzymaps.com/">Snazzy maps</a> a website that offers styles for google maps I picked out one that I liked and added it to my page!
+				</p>
+				<h2>Technical Gaps</h2>
+				<p>This week I feel that I really got a better grasp on how to add API's using both an <a>AJAX</a> call and <a>$getJSON</a> call. I was able to properly get this going and had a good read through the documentation on these types of calls.<br/>I also worked on getting elements to appear/disappear by wrapping all the elements that where to change in a div and only changing the visibility of the container div instead of each element individually. This helped clean up my JavaScript and also may it much easier to code.<br/>
+				I learnt how to style new elements like <a>Input</a> fields changing the text colours, background and even the border.
+				</p>
+				<h2>Did It Achieve Expectations </h2>
+				<p>
+					I really like the way that my application turned out, It honestly came out better than I was expecting and It has given me the confidence boost that I was needing.<br/>
+					There is still plenty room for improvement hopefully I can start adding in more advanced features sometime in the future.
+				</p>
+				<img src="images/5-star-rating.png" class="center" alt="5/5" height="42">
+			</div>
+		</div>
+
+
+</body>
+
+</html>
+
+  </body>
+</html>
