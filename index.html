@@ -1,58 +1,161 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Dev Academy Blog</title>
-    <link rel="icon" href="images/favicon.ico" type="icon">
-      <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-      <!-- Style Sheets -->
-  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-  <img src="images/Olwiba-logo-grey.png" alt="" id="olwibalogo">
-      <div class="row center" id="navigation">
-        <div class="one column"><a href="http://olwiba.github.io"><img src="images/home.png" alt="" id="homeimg"></a></div>
-        <div class="ten columns"><p> </p></div>
-        <div class="one colunm"><a href="#"> </a></div>
-      </div>
-    <div class="container">
-      <div class="row center">
-        <div class="twelve columns"><h1 class="heading">Welcome to my Site!!</h1></div>
-      </div>
-      <div class="row center">
-        <div class="twelve colunms"><p>What type of blog posts do you want to read?</p></div>
-      </div>
-      <div class="row center shade">
-          <ul id="categories" class="clr">
-            <li>
-                <div onclick="location.href='http://olwiba.github.io/blog/technical.html';" class="one-third column">
-                  <img src="images/code.png" alt=""/>
-                  <h1>Technical Blogs</h1>
-                  <p>Check out my technical blogs</p>
-              </div>
-            </li>
-            <li>
-                <div onclick="location.href='http://olwiba.github.io/blog/lib.html';" class="one-third column">
-                  <img src="images/library.png" alt=""/>
-                  <h1>View All</h1>
-                  <p>Check out all my posts!</p>
-              </div>
-            </li>
-              <li>
-                <div onclick="location.href='http://olwiba.github.io/blog/cultural.html';" class="one-third column">
-                  <img src="images/cultural.png" alt=""/>
-                  <h1>Cultural Blogs</h1>
-                  <p>Check out my cultural blogs</p>
-              </div>
-            </li>
-          </ul>
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ollie Bannister</title>
+        <meta name="description" content="Online eCard made by Ollie Bannister.">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+
+        <link rel="icon" type="ico" href="favicon.ico">
+        <link rel="apple-touch-icon" href="favicon.ico">
+
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Source+Sans+Pro" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    <body class="background">
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+        <!-- body -->
+        <div class="background__overlay">
+            <header>
+                <svg class="logo" viewBox="0 0 171 196">
+                    <defs>
+                        <style>
+                            .cls-1{fill:#fee;font-size:100px;font-family:PermanentMarker-Regular,Permanent Marker}.logo__letter-b{filter:url(#O)}.logo__letter-o{filter:url(#B)}
+                        </style>
+                        <filter id="B" x="56" y="0" width="115" height="185" filterUnits="userSpaceOnUse">
+                            <feOffset dx="-6"/>
+                            <feGaussianBlur stdDeviation="7" result="blur"/>
+                            <feFlood flood-color="#21d4fd"/>
+                            <feComposite operator="in" in2="blur"/>
+                            <feComposite in="SourceGraphic"/>
+                        </filter>
+                        <filter id="O" x="0" y="11" width="117" height="185" filterUnits="userSpaceOnUse">
+                            <feOffset dx="-6"/>
+                            <feGaussianBlur stdDeviation="7" result="blur-2"/>
+                            <feFlood flood-color="#21d4fd"/>
+                            <feComposite operator="in" in2="blur-2"/>
+                            <feComposite in="SourceGraphic"/>
+                        </filter>
+                    </defs>
+                    <g>
+                        <g class="logo__letter-o">
+                            <text id="B-2" data-name="B" class="cls-1" transform="translate(87 132)"><tspan x="0" y="0">B</tspan></text>
+                        </g>
+                        <g class="logo__letter-b">
+                            <text id="O-2" data-name="O" class="cls-1" transform="translate(27 143)"><tspan x="0" y="0">O</tspan></text>
+                        </g>
+                    </g>
+                  
+            </header>
+            <main>
+                <div class="content">
+                    <h1 class="content__title">
+                        <!-- Ollie <br/>
+                        Bannister -->
+                    O<span>l</span>li<span>e</span> <br/>
+                    <span>B</span>a<span>n</span><span>n</span>i<span>s</span>t<span>e</span>r
+                </h1>
+                    <h2 class="content__subheading">F<span>r</span>on<span>t</span>-e<span>n</span>d de<span>v</span>el<span>o</span>per</h2>
+                </div>
+                <ul class="links js-links">
+                    <li class="links__link">
+                        <a>
+                            <div class="link-helptip">
+                                <img class="link-helptip__icon link-helptip__icon--locked" src="images/icons/icon_instagram.svg" alt="Instagram"/>                                
+                                <div class="link-helptip__arrow" aria-hidden="true"></div>
+                                <div class="link-helptip__tip">
+                                    Instagram
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="links__link">
+                        <a href="https://twitter.com/olwiba">
+                            <div class="link-helptip">
+                                <img class="link-helptip__icon" src="images/icons/icon_twitter.svg" alt="Twitter"/>
+                                <div class="link-helptip__arrow" aria-hidden="true"></div>
+                                <div class="link-helptip__tip">
+                                    Twitter
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="links__link">
+                        <a href="https://github.com/olwiba">
+                            <div class="link-helptip">
+                                <img class="link-helptip__icon" src="images/icons/icon_github.svg" alt="Github"/>
+                                <div class="link-helptip__arrow" aria-hidden="true"></div>
+                                <div class="link-helptip__tip">
+                                    Github
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="links__link js-links__link--center-link">
+                        <a href="https://codepen.io/Olwiba/">
+                            <div class="link-helptip">
+                                <img class="link-helptip__icon" src="images/icons/icon_codepen.svg" alt="Codepen"/>
+                                <div class="link-helptip__arrow" aria-hidden="true"></div>
+                                <div class="link-helptip__tip">
+                                    Codepen
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="links__link">
+                        <a href="https://www.linkedin.com/in/olwiba/">
+                            <div class="link-helptip">
+                                <img class="link-helptip__icon" src="images/icons/icon_linkedin.svg" alt="Linkedin"/>
+                                <div class="link-helptip__arrow" aria-hidden="true"></div>
+                                <div class="link-helptip__tip">
+                                    LinkedIn
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="links__link">
+                        <a>
+                            <div class="link-helptip">
+                                <img class="link-helptip__icon link-helptip__icon--locked" src="images/icons/icon_dribbble.svg" alt="Dribbble"/>
+                                <div class="link-helptip__arrow" aria-hidden="true"></div>
+                                <div class="link-helptip__tip">
+                                    Dribbble
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="links__link">
+                        <a>
+                            <div class="link-helptip">
+                                <img class="link-helptip__icon link-helptip__icon--locked" src="images/icons/icon_print.svg" alt="CV"/>
+                                <div class="link-helptip__arrow" aria-hidden="true"></div>
+                                <div class="link-helptip__tip">
+                                    Résumé
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="scroll-arrows">
+                    <span class="scroll-arrows__left">&lt;&lt;</span>
+                    <span class="scroll-arrows__right">&gt;&gt;</span>
+                </div>
+                <div class="location">
+                    <img class="location__icon" src="images/icons/icon_location.svg" alt="Location"/>
+                    <p class="location__passage">Wellington, NZ</p>
+                </div>
+            </main>
+            <footer>
+                <p class="footer-text">Handcrafted by myself <span>|</span> Checkout my <a href="https://github.com/Olwiba/ecard">Source code</a></p>
+            </footer>
         </div>
-    </div>
-      <div class="row center" id="footer">
-        <div class="twelve columns"><h6>Designed by <a href="mailto:Olwiba@gmail.com?subject=Contact Olwiba!" "email me">Olwiba</a> | © Copyright 2015</h6></div>
-      </div>
-  </body>
+
+        <!-- scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+    </body>
 </html>
